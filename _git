@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Enter files or directories: "
+read files
+git add "${files}"
+git commit -m "adding or editing file(s): ${files}"
+git push -u origin main
